@@ -8,6 +8,7 @@ html, body {
 body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
+  background-color: gradient;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -49,6 +50,7 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  background-color: black;
 }
 
 p {
