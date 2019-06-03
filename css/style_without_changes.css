@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
 
 html, body {
   height: 100%;
@@ -9,7 +9,7 @@ body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Verdana, Sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
 
@@ -21,13 +21,11 @@ body {
 
 #content {
   padding: 20px;
-  /*background: rgba(0,0,0,.65); /* black */
-  background-image: linear-gradient(rgba(0,0,0,.65), rgba(70,0,0,.65), rgba(0,0,0,.65));
-  color: rgba(255,255,255,1); /* white */
+  background: rgba(255,255,255,.85);
 }
 
 h1, h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gabriela', serif;
   color: #fff;
 }
 
@@ -42,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
 }
@@ -58,14 +56,12 @@ p {
 }
 
 a {
-  color: rgba(0,0,0,.85); /* black */
+  color: black;
   text-decoration: none;
-  color: rgba(255,255,255,1); /* white */
 }
 
 a:hover {
   text-decoration: underline;
-  color: rgba(255,255,255,1); /* white */
 }
 
 @media only screen and (max-width: 1042px) {
