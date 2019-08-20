@@ -5,6 +5,11 @@ html, body {
   min-height: 100%;
 }
 
+img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 40px;
+}
+
 body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
@@ -24,6 +29,11 @@ body {
   background: rgba(255,255,255,.85);
 }
 
+#content {
+  border-radius: 5px;
+   background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
+
 h1, h2 {
   font-family: 'Gabriela', serif;
   color: #fff;
@@ -32,11 +42,17 @@ h1, h2 {
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: darkgray;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  color: lightgray;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
 
 h3 {
@@ -45,19 +61,29 @@ h3 {
   margin-top: .5em;
 }
 
+h3 {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
 img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  transition: .5s;
 }
 
 p {
   font-size: 1em;
+  margin: 1.5rem;
+  color: #666;
 }
 
 a {
-  color: black;
-  text-decoration: none;
+  color: purple;
+  text-decoration: inherit;
 }
 
 a:hover {
