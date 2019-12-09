@@ -20,13 +20,13 @@ body {
 }
 
 #content {
-  padding: 20px;
+  padding: 30px;
   background: rgba(255,255,255,.85);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: rgba(255, 200,255,255);
 }
 
 h1 {
