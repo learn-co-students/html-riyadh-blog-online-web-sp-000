@@ -8,6 +8,7 @@ html, body {
 body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
+  background-color: black;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -17,16 +18,17 @@ body {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 40px;
+  background-color:white;
 }
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: black;
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: purple;
 }
 
 h1 {
