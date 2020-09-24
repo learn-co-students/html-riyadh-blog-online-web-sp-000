@@ -1,3 +1,8 @@
+
+
+#NOTE: NEED TO REOMVE "#_" IN FILE NAME TO MAKE INDEX.HTML FILE TO RUN CORRECTLY
+
+
 # Riyadh Blog
 
 ## Problem Statement
