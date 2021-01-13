@@ -9,7 +9,7 @@ RSpec.describe "Well-Formed HTML Document" do
   end
 
   context 'within <body>' do
-      it 'the wrapper class section contains the correct header sizes and text content' do
+      if 'the wrapper class section contains the correct header sizes and text content' do
         title_box = parsed_html.search('.wrapper').first
 
         expect(title_box.children.any? {|ch| ch.name == "h1"}).to be == true, "No 'h1' tag(s) found"
