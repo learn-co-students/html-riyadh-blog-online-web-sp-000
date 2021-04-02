@@ -32,6 +32,7 @@ h1, h2 {
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: #C87E0B;
 }
 
 h2 {
@@ -42,6 +43,19 @@ h2 {
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
+  margin-top: .5em;
+  color: #002366;
+}
+
+h4 {
+  font-family: 'Gabriela', serif;
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+
+p {
+  font-family: 'Gabriela', serif;
+  font-size: 0.5em;
   margin-top: .5em;
 }
 
